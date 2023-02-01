@@ -1,0 +1,110 @@
+body{
+	background-image: linear-gradient(80deg,#3e32a8,#e310c7);
+}
+ 
+
+.navbar{width: 90%;
+	margin-left: 5%;
+	display: inline-flex;
+	align-items: center;
+		box-sizing: border-box;
+		box-shadow:0 5px 30px rgba(0, 0, 0, 0.6);
+		background-color:rgba(13, 1, 1, 0.1);
+		border-radius: 30px 30px 10px 10px ;}
+
+.navbar-nav a:hover{
+	color:oldlace;
+}
+
+.navbar-nav{
+	
+	font-size: 17px;
+	margin-right: 60px;
+}
+a{
+	color: #01b2fe;
+}
+.logo{
+	width: 50px;
+	height: 50px;
+	align-items: center;
+	margin-bottom: 2px;
+}
+
+
+
+
+
+.new_update{
+	margin-top: 5%;
+	width: 80%;
+	margin-left: 10%;
+
+   }
+   .card3{
+	
+		
+		margin-top: 30px;
+		margin-left: 10%;
+		box-sizing: border-box;
+		box-shadow:0 5px 30px rgba(0, 0, 0, 0.1);
+		background-color:rgba(13, 1, 1, 0.1);
+		color: white;
+   }
+	
+	  
+
+   .bg {
+	top: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	position: relative;
+	
+  }
+  .bg .span1{
+	position: absolute;
+	top: 10%;
+	width: 200px;
+	height: 200px;
+	display: block;
+	background: black;
+	border-radius: 50%;
+	transform-origin: 125px 0;
+	transform: rotate(calc(90deg * var(--i)));
+	filter: blur(88px);
+	opacity: 0.75;
+  }
+  .bg .span1:nth-child(1){
+	background-color: #01b2fe;
+  }
+  .bg .span1:nth-child(2){
+	background-color:#ff008c;
+  }
+
+  .bg.span1:nth-child(3){
+	background-color: yellow;
+  }
+
+  .bg .span1:nth-child(4){
+	background-color:lightgreen;
+  }
+/*visite*/
+.visite{
+	margin-top: 10%;
+}
+ .cont1 {
+	
+	margin-top: 30px;
+
+	box-sizing: border-box;
+	box-shadow:0 5px 30px rgba(0, 0, 0, 0.1);
+	background-color:rgba(253, 235, 235, 0.1);
+	color: white;
+	border-radius: 50px 50px 10px 10px ;
+ }
+ .count1 a{text-decoration: none;}
+ h4{
+	color: white;
+ }
